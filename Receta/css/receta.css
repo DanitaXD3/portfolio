@@ -1,0 +1,56 @@
+/**********************************************/
+
+
+
+/**********************************************/
+
+@font-face {
+    font-family: titulos;
+    src: url(../Fonts/fondy-script-personal-use-only.regular.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(../Fonts/antipasto.regular.ttf);
+}
+
+* {box-sizing: border-box;}  /* el width incluye el padding 
+                                el espacio en blanco lo coge
+                                de dentro del cuadro 
+                                lo haré SIEMPRE */
+
+body {background-color:rgb(41, 94, 57);
+        background-image: url(../IMG/Madera.jpg);
+    background-size: 50%;}
+
+#wrapper {background-color: #caffd5;
+          width:80%;             /* el width va en %  */
+          margin:auto;
+          padding:10%;
+          border-radius:40px;
+          font-family:'Courier New', Courier, monospace;
+}              
+
+h1 {border:3px solid rgb(15, 139, 52);
+    text-align:center;
+    padding:10px 0;
+    /* sombra de caja */
+    box-shadow: 5px 5px 15px rgb(48, 71, 54);
+    font-family: 'titulos';
+    border-radius: 20px;
+}
+
+blockquote {border-left:3px solid rgb(54, 105, 49);
+            font-style: italic;  /* poner en cursiva */
+            font-weight: bold;   /* poner en negrita */
+            background-color: #9fc786;
+            padding:10px;        /* margin y padding pequeños pueden estar en pixeles */
+            font-family: 'texto' ;
+        }
+
+#foto {width: 80%;    /* a todo el ancho de donde está colocada, en este caso el wrapper */
+        margin:auto;   
+        display:block;} /*para que se comporte como un bloque*/
+dt {font-weight:bold;
+    color:rgb(95, 86, 35);
+    font-size:1.2em;}
