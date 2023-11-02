@@ -1,5 +1,8 @@
 /**********************************************/
-
+/**        Style for Receta.html             **/
+/**        autora: Dana Espinosa Ramos       **/
+/**        version:4.0                       **/
+/**        portfolio:                        **/
 
 
 /**********************************************/
@@ -54,3 +57,11 @@ blockquote {border-left:3px solid rgb(54, 105, 49);
 dt {font-weight:bold;
     color:rgb(95, 86, 35);
     font-size:1.2em;}
+
+
+/************************ gestión de la responsividad ******************/
+
+@media only screen and (width<600px) {
+    #wrapper {width: 95%;
+            background-color: rgb(139, 219, 143)}
+}
